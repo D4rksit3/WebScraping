@@ -22,8 +22,8 @@ driver.get(url)
 name = driver.find_element_by_id("username")
 password = driver.find_element_by_id("password")
 
-namesend = "73800375" #Llena con tu usuario
-passwordsend = "Organismo" #LLena con tu password
+namesend = "" #Llena con tu usuario
+passwordsend = "" #LLena con tu password
 
 
 name.send_keys(namesend)
